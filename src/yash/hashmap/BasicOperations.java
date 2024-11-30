@@ -1,5 +1,4 @@
 package yash.hashmap;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +7,6 @@ public class BasicOperations {
         BasicOperations b1 = new BasicOperations();
         b1.Traverse();
     }
-
 
     public void Traverse(){
         HashMap<Integer,String> map = new HashMap<Integer, String>();
