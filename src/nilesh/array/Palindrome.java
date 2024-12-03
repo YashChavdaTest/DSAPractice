@@ -2,23 +2,28 @@ package nilesh.array;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String input = "madam";
+        String input = "radar";
 
-        if(input.equals(new StringBuilder(input).reverse().toString())){
-            System.out.println(input + "is a Palindrome");
+        if(isPalindrome(input)){
+            System.out.println("The String" +input+ "is a Palindrome");
         }
         else{
-            System.out.println(input + "is not a Palindrome");
+            System.out.println("The String" +input+ "is not a Palindrome");
         }
+    }
 
-        int numbers = 12321;
-        String numstr = Integer.toString(numbers);  //Convert int into string
+    public static boolean isPalindrome(String str){
+        int start = 0;
+        int end = str.length() - 1;
 
-        if(numstr.equals(new StringBuilder(numstr).reverse().toString())){
+        while(start < end){
 
-            System.out.println(numbers + "is a Palindrome");
-        } else {
-            System.out.println(numbers + "is not a Palindrome");
+            if(str.charAt(start) != str.charAt(end)){
+                return false;
+            }
+            start++;
+            end--;
         }
+        return true;
     }
 }
