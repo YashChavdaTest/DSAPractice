@@ -11,7 +11,6 @@ public class MinMaxArray {
     }
 
     public static int[] FindMinMax(int[] arr){
-
         int min = arr[0];
         int max = arr[0];
 

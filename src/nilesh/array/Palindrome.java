@@ -2,7 +2,7 @@ package nilesh.array;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String input = "radar";
+        String input = "madam";
 
         if(isPalindrome(input)){
             System.out.println("The String" +input+ "is a Palindrome");
