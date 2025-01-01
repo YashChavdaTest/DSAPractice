@@ -1,4 +1,4 @@
-package nilesh.array;
+package nilesh.general;
 
 public class PalindromeNumber {
     public static void main(String[] args) {
@@ -12,7 +12,6 @@ public class PalindromeNumber {
             System.out.println("The Integer " +number+ " is not a Palindrome");
         }
     }
-
 
     public static boolean isPalindrome(int num){
 

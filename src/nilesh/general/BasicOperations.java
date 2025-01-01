@@ -1,4 +1,4 @@
-package nilesh.array;
+package nilesh.general;
 
 public class BasicOperations {
     public static void main (String args[]) {
