@@ -1,14 +1,14 @@
-package nilesh.array;
+package nilesh.strings;
 
 public class Palindrome {
     public static void main(String[] args) {
         String input = "madam";
 
         if(isPalindrome(input)){
-            System.out.println("The String" +input+ "is a Palindrome");
+            System.out.println("The String" + input + "is a Palindrome");
         }
         else{
-            System.out.println("The String" +input+ "is not a Palindrome");
+            System.out.println("The String" + input + "is not a Palindrome");
         }
     }
 
