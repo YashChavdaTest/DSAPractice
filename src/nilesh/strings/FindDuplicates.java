@@ -13,13 +13,14 @@ public class FindDuplicates {
 
         HashSet<Character> seen = new HashSet<>();  //Created Hashset to track characters
 
-        for(int i = 0; i <str.length(); i++){
+        for(int i = 0; i < str.length(); i++){
 
             char ch = str.charAt(i);
 
             if(seen.contains(ch)){
                 System.out.println("Duplicate Character: " +ch);
-            }else {
+            }
+            else {
                 seen.add(ch);
             }
         }
