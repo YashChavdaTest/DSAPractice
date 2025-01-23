@@ -12,6 +12,7 @@ public class TwoSumProblem {
     }
 
     public static int[] TwoSum(int[] array,int target){
+
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for(int i=0; i<array.length; i++) {

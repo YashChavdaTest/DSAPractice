@@ -33,6 +33,10 @@ public class ThirdLargestElement {
             } else if (array[i] > thirdlargest && array[i] != largest) {
                 thirdlargest = array[i];
             }
+
+            if(array.length < 3){
+                throw new IllegalArgumentException("Array must have at least 3 elements");
+            }
         }
 
         return thirdlargest;
